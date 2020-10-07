@@ -12,10 +12,9 @@ import { ProductService } from "./product.service";
     AppComponent,
     ProductPageComponent,
     ProductDescriptionComponent,
-    ProductService,
   ],
   imports: [BrowserModule, FormsModule, HttpModule],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
